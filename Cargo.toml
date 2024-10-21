@@ -1,0 +1,12 @@
+[package]
+name = "equidistributed-colors"
+version = "0.1.0"
+edition = "2021"
+description = "Iterator over colors which are distributed evenly according to the equidistribution theorem."
+repository = "https://github.com/rpitasky/equidistributed-colors"
+license = "MIT"
+
+[dependencies]
+hsl = "0.1.1"
+oklab = "1.1.2"
+rgb = "0.8.50"
